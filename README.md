@@ -1,4 +1,4 @@
-# filebacker
+# FileBacker
 Simple Windows BATCH file script to take custom compressed backup from files and directories. FileBacker is good for scheduled backup task.
 
 # requirements
@@ -20,5 +20,5 @@ set BACKUP_FILENAME='%BACKUP_PREFIX%%date:~10,4%_%date:~4,2%_%date:~7,2%.%BACKUP
 
 # usage
 ```
-filebacker.bat
+./filebacker.bat
 ```
