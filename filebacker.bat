@@ -13,7 +13,7 @@ set BACKUP_FILENAME=<BACKUP FILENAME [etc '%BACKUP_PREFIX%%date:~10,4%_%date:~4,
 PATH=C:\Program Files (x86)\7-Zip;C:\Program Files\7-Zip;%PATH%
 
 echo FileBacker by M.J.Ahmadi
-echo Simple Windows BACH file script to take custom compressed backup from files and directories
+echo Simple Windows .bat file script to take custom compressed backup from files and directories using 7zip
 
 echo Backup from '%BACKUP_FROM%' to '%BACKUP_TO%'
 
